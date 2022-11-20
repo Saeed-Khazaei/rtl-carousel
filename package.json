@@ -1,5 +1,5 @@
 {
-  "name": "@saeed-khazaei/rtl-carousel",
+  "name": "@skhazaei/rtl-carousel",
   "version": "1.0.0",
   "description": "My first react typescript package",
   "main": "./dist/cjs/index.js",
@@ -8,6 +8,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Saeed-Khazaei/rtl-carousel.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
@@ -21,7 +24,8 @@
   "files": [
     "dist",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "dist/*.css"
   ],
   "keywords": [
     "react",
